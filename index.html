@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Questioning and Discussion</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="styles.css">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<header>
+		<h1>Questioning and Discussion: Component 3b of the Charlotte Danielson Framework for Teaching</h1>
+	</header>
+	<div class="content">	
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<p>Teachers oftentimes struggle with differentiating between the effectiveness levels in the Questioning and Discussion component (3b) of the Charlotte Danielson Framework for Teaching. Unfortunately, not being able to differentiate between these effectiveness levels is a problem in that teachers may have a different view of their practice than their evaluators. This could lead to the teacher being unable to identify strategies which would improve their practice in this domain, potentially resulting in termination.</p>
+					<h3>If the user is willing to engage with the rubric, this tutorial will help the user:</h3>
+					<ul>
+						<li>Know what evidence and techniques would count in different levels of the Questioning and Discussion component (3b of the Charlotte Danielson Framework for Teaching</li>
+						<li>Differentiate between different techniques when they observe them and accurately place them on the rubric</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<h4 id="rubricInstructions"><em>Explore the rubric and critical attributes at each effectiveness level. When you are ready, quiz yourself using classroom examples.</em></h4>
+		<h4 class="quizInstructions"><em>Below are examples from each effectiveness level. Answer each question by clicking the corresponding button below. </em></h4>
+		<h4 class="quizInstructions"><em>Toggle the rubric and critical attributes buttons for hints when necessary.</em></h4>
+		<button id="rubricButton">Rubric</button>
+		<button id="caButton">Critical Attributes</button>
+		<button id="quizButton">Click to Test Yourself</button>
+		<button id="quizExitButton">Exit Quiz Mode</button>
+		<button id="nextQuestion">Next Question</button>
+		<div class="container" id="information">
+			<div class="row" id="questionSpace">
+				<div class="col-md-12, quizQuestion">
+					<p id="question"></p>
+			</div>
+			<div class="row" id="titles">
+				<div class="col-md-3">
+					<h3>Ineffective</h3>
+				</div>
+				<div class="col-md-3">
+					<h3>Developing</h3>
+				</div>
+				<div class="col-md-3">
+					<h3>Effective</h3>
+				</div>
+				<div class="col-md-3">
+					<h3>Highly Effective</h3>
+				</div>
+			</div>
+			<div class="row" id="quiz">
+				<div class="col-md-3" id="ineffectiveAnswer">
+					 <button class="choice" id="ineffective">Ineffective</button>
+				</div>
+				<div class="col-md-3" id="developingAnswer"> 
+					<button class="choice" id="developing">Developing</button>
+				</div>
+				<div class="col-md-3" id="effectiveAnswer"> 
+					<button class="choice" id="effective">Effective</button>
+				</div>
+				<div class="col-md-3" id+"highlyEffectiveAnswer"> 
+					<button class="choice" id="highlyEffective">Highly Effective</button>
+				</div>
+			</div>	
+			<div class="row" id="rubric">
+				<div class="col-md-3", "ineffective", "rubric">
+					<p>The teacher’s questions are of low cognitive challenge, with single correct responses, and are asked in rapid succession. Interaction between the teacher and students is predominantly recitation style, with the teacher mediating all questions and answers; the teacher accepts all contributions without asking students to explain their reasoning. Only a few students participate in the discussion.</p>
+				</div>
+				<div class="col-md-3", "developing" "rubric">
+					<p>The teacher’s questions lead students through a single path of inquiry, with answers seemingly determined in advance. Alternatively, the teacher attempts to ask some questions designed to engage students in thinking, but only a few students are involved. The teacher attempts to engage all students in the discussion, to encourage them to respond to one another, and to explain their thinking, with uneven results.</p>
+				</div>
+				<div class="col-md-3", "effective" "rubric">
+					<p>While the teacher may use some low-level questions, he poses questions designed to promote student thinking and understanding. The teacher creates a genuine discussion among students, providing adequate time for students to respond and stepping aside when doing so is appropriate. The teacher challenges students to justify their thinking and successfully engages most students in the discussion, employing a range of strategies to ensure that most students are heard.</p>
+				</div>
+				<div class="col-md-3", "highly_effective" "rubric">
+					<p>The teacher uses a variety or series of questions or prompts to challenge students cognitively, advance high-level thinking and discourse, and promote metacognition. Students formulate many questions, initiate topics, challenge one another’s thinking, and make unsolicited contributions. Students themselves ensure that all voices are heard in the discussion.</p>
+				</div>
+			</div>
+			<div class="row" id="critical_attributes">
+				<div class="col-md-3", "ineffective">
+					<ul>
+						<li>Questions are rapid-fire and convergent, with a single correct answer.</li>
+						<li>Questions do not invite student thinking.</li>
+						<li>All discussion is between the teacher and students; students are not invited to speak directly to one another.</li>
+						<li>The teacher does not ask students to explain their thinking.</li>
+						<li>Only a few students dominate the discussion.</li>
+					</ul>
+				</div>
+				<div class="col-md-3", "developing">
+					<ul>
+						<li>The teacher frames some questions designed to promote student thinking, but many have a single correct answer, and the teacher calls on students quickly.</li>
+						<li>The teacher invites students to respond directly to one another’s ideas, but few students respond.</li>
+						<li>The teacher calls on many students, but only a small number actually participate in the discussion.</li>
+						<li>The teacher asks students to explain their reasoning, but only some students attempt to do so.</li>
+					</ul>
+				</div>
+				<div class="col-md-3", "effective">
+					<ul>
+						<li>The teacher uses open-ended questions, inviting students to think and/or offer multiple possible answers</li>
+						<li>The teacher makes effective use of wait time.</li>
+						<li>Discussions enable students to talk to one another without ongoing mediation by teacher</li>
+						<li>The teacher calls on most students, even those who don’t initially volunteer.</li>
+						<li>Many students actively engage in the discussion.</li>
+						<li>The teacher asks students to justify their reasoning, and most attempt to do so.</li>
+					</ul>				
+				</div>
+				<div class="col-md-3" id="highly_effective">
+					<ul>
+						<li>Students initiate higher-order questions.</li>
+						<li>The teacher builds on and uses student responses to questions in order to deepen student understanding.</li>
+						<li>Students extend the discussion, enriching it.</li>
+						<li>Students invite comments from their classmates during a discussion and challenge one another’s thinking.</li>
+						<li>Virtually all students are engaged in the discussion.</li>
+					</ul>				
+				</div>
+			</div>			
+		</div>
+	</div>	
+</body>
+</html>
